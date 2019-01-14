@@ -9,9 +9,8 @@ public class Main {
     public static void main(String[] args) {
 
 	System.out.println("Hello World");
-    //Main main = new Main();
-    //System.out.println(main("Howdy World"));
-
+    Main main = new Main();
+    System.out.println(main.msg("Howdy World"));
 
     }
 }
